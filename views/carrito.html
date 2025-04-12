@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bako - Carrito</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+  <div id="header-container"></div>
+
+  <main class="carrito-container">
+    <div class="carrito-grid">
+        <section class="carrito-izquierda">
+          <h2>Mi Carrito</h2>
+          <div id="carrito-lista"></div>
+        </section>
+    
+        <aside class="carrito-derecha">
+          <h3>Total:</h3>
+          <p id="carrito-total">S/ 0.00</p>
+        </aside>
+      </div>
+      
+    <h3>Datos de entrega</h3>
+    <form id="form-entrega">
+      <input type="text" id="entrega-nombres" placeholder="Nombres" required />
+      <input type="text" id="entrega-apellidos" placeholder="Apellidos" required />
+      <input type="text" id="entrega-dni" placeholder="DNI" required />
+      <input type="text" id="entrega-telefono" placeholder="Teléfono" required />
+      <input type="text" id="entrega-region" placeholder="Región" required />
+      <input type="text" id="entrega-provincia" placeholder="Provincia" required />
+      <input type="text" id="entrega-distrito" placeholder="Distrito" required />
+      <input type="text" id="entrega-direccion" placeholder="Dirección" required />
+      <input type="text" id="entrega-referencia" placeholder="Referencia" required />
+      
+      <h3>Sube tu constancia de pago</h3>
+      <input type="file" id="constancia" accept=".jpg,.png,.pdf" required />
+      
+      <button type="submit">Confirmar Compra</button>
+    </form>
+  </main>
+
+  <div id="footer-container"></div>
+  <div id="whatsapp-container"></div>
+
+  <script src="../js/carrito.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+[
+    {
+      "nombre": "Audífonos Inalámbricos",
+      "precio": 99.90,
+      "descripcion": "Sonido premium, conexión Bluetooth 5.0",
+      "imagen": "audifonos.png"
+    },
+    {
+      "nombre": "Mouse Gamer RGB",
+      "precio": 79.90,
+      "descripcion": "Alta precisión con luces LED",
+      "imagen": "mouse.png"
+    },
+    {
+      "nombre": "Smartwatch Deportivo",
+      "precio": 149.90,
+      "descripcion": "Monitorea tu actividad física",
+      "imagen": "smartwatch.png"
+    }
+  ]
+  
