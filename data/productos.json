@@ -1,21 +1,56 @@
 [
     {
-      "nombre": "Audífonos Inalámbricos",
-      "precio": 99.90,
-      "descripcion": "Sonido premium, conexión Bluetooth 5.0",
-      "imagen": "audifonos.png"
+      "nombre": "Teclado Mecánico RGB",
+      "precio": 199.90,
+      "descripcion": "Switches mecánicos con retroiluminación personalizable",
+      "imagen": "A1.jpg"
     },
     {
-      "nombre": "Mouse Gamer RGB",
-      "precio": 79.90,
-      "descripcion": "Alta precisión con luces LED",
-      "imagen": "mouse.png"
+      "nombre": "Cámara Web Full HD",
+      "precio": 129.90,
+      "descripcion": "Resolución 1080p con micrófono integrado",
+      "imagen": "A2.jpeg"
     },
     {
-      "nombre": "Smartwatch Deportivo",
-      "precio": 149.90,
-      "descripcion": "Monitorea tu actividad física",
-      "imagen": "smartwatch.png"
+      "nombre": "Monitor Gaming 24''",
+      "precio": 799.90,
+      "descripcion": "Tasa de refresco de 144Hz y resolución Full HD",
+      "imagen": "A3.jpg"
+    },
+    {
+      "nombre": "Altavoces Bluetooth Portátiles",
+      "precio": 89.90,
+      "descripcion": "Sonido estéreo con resistencia al agua",
+      "imagen": "A4.png"
+    },
+    {
+      "nombre": "Disco SSD Externo 1TB",
+      "precio": 499.90,
+      "descripcion": "Almacenamiento ultra rápido USB 3.2",
+      "imagen": "A5.png"
+    },
+    {
+      "nombre": "Router WiFi 6",
+      "precio": 299.90,
+      "descripcion": "Conexión estable y velocidades ultrarrápidas",
+      "imagen": "A6.png"
+    },
+    {
+      "nombre": "Drone con Cámara 4K",
+      "precio": 999.90,
+      "descripcion": "Captura aérea con estabilización avanzada",
+      "imagen": "A7.png"
+    },
+    {
+      "nombre": "Auriculares de Realidad Virtual",
+      "precio": 1499.90,
+      "descripcion": "Experiencia inmersiva para gaming y contenido 3D",
+      "imagen": "A8.png"
+    },
+    {
+      "nombre": "Tablet 10''",
+      "precio": 499.90,
+      "descripcion": "Pantalla multitáctil y almacenamiento expandible",
+      "imagen": "A9.png"
     }
   ]
-  
