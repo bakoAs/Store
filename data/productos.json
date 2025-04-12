@@ -53,4 +53,10 @@
       "descripcion": "Pantalla multitáctil y almacenamiento expandible",
       "imagen": "A9.png"
     }
+    {
+        "nombre": "Cooler para laptop''",
+        "precio": 499.90,
+        "descripcion": "Diseño confortable y de gran potencia ",
+        "imagen": "A9.png"
+      }
   ]
