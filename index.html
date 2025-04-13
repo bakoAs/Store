@@ -10,7 +10,20 @@
 <body>
 
   <!-- Header -->
-  <div id="header-container"></div>
+  <header class="main-header">
+    <div class="logo-container">
+      <img src="../assets/img/logo.png" alt="Bako logo" class="logo-img" />
+      <span class="logo-text">Bako</span>
+    </div>
+    <nav id="nav-links">
+      <a href="index.html">Inicio</a>
+      <a href="categoria.html">Productos</a>
+      <a href="login.html" id="login-link">Iniciar Sesión</a>
+      <a href="carrito.html" class="carrito-link">
+        🛒 <span id="carrito-contador">0</span>
+      </a>      
+    </nav>
+  </header>
 
   <!-- Contenido principal -->
   <main class="home-container">
@@ -22,10 +35,14 @@
   </main>
 
   <!-- Footer -->
-  <div id="footer-container"></div>
+  <footer class="main-footer">
+    <p>&copy; 2025 Store. Todos los derechos reservados.</p>
+  </footer>
 
-  <!-- Burbuja WhatsApp -->
-  <div id="whatsapp-container"></div>
+  <!-- WhatsApp-->
+  <a href="https://wa.me/51908974202" target="_blank" class="whatsapp-float">
+    <img src="../assets/icons/whatsapp.png" alt="WhatsApp" />
+  </a>
 
   <script src="js/main.js"></script>
 </body>
