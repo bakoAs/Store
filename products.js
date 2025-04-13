@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('../data/productos.json')
+    fetch('productos.json')
       .then(res => res.json())
       .then(data => mostrarProductos(data))
       .catch(err => console.error('Error cargando productos:', err));
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
       card.className = 'producto-card';
   
       card.innerHTML = `
-        <img src="../assets/img/${prod.imagen}" alt="${prod.nombre}">
+        <img src="img/${prod.imagen}" alt="${prod.nombre}">
         <h3>${prod.nombre}</h3>
         <p class="precio">S/ ${prod.precio}</p>
         <p class="descripcion">${prod.descripcion}</p>
